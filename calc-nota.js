@@ -10,4 +10,4 @@ function calcNota(input, solution) {
 
 console.log(calcNota("ABCDBBACAD", "ABCDBBACAD")); // 100 (el examen está perfecto)
 console.log(calcNota("CBCDBBACAC", "ABCDBBACAD")); // 80 (hay 2 errores)
-console.log(calcNota("CCACCCAVVA", "ABCDBBACAD")); // 0 (todo mal...)
+console.log(calcNota("CCACCCDVVA", "ABCDBBACAD")); // 0 (todo mal...)
